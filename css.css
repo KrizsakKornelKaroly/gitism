@@ -43,7 +43,7 @@ aside{
     font-weight: bolder;
 }
 .asideitem:hover{
-    background-color: lightgray;
+    background-color: rgb(185, 184, 184);
 }
 a:visited, a{
     text-decoration: none;
