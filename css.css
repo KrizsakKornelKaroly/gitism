@@ -1,5 +1,5 @@
 nav{
-    width: 100%;
+    width: 98.6%;
     display: flex;
     flex-wrap: wrap;
     background-image: linear-gradient(90deg, rgb(28,181,224) 50%, rgb(0, 0, 129) 100%);
@@ -19,9 +19,36 @@ nav{
     background-color: aquamarine;
     color: darkgray;
 }
-a:visited, a{
-    text-decoration: none;
-}
 body{
     margin: 0;
+}
+h1{
+    text-align: center;
+}
+aside{
+    width: 25%;
+    border: 1px solid grey;
+}
+.asideitem{
+    background-color: grey;
+    color: white;
+    width: 80%;
+    margin: 15px auto;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    height: 70px;
+    font-size: large;
+    padding-top: 40px;
+    font-weight: bolder;
+}
+.asideitem:hover{
+    background-color: lightgray;
+}
+a:visited, a{
+    text-decoration: none;
+    color: black;
+}
+body{
+    background-color: lightgray;
 }
